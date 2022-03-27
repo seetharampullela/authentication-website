@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: none;
+  }
+  .header-container-small {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+}
+.logo-logout-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.logout-icon-2 {
+  width: 60%;
+}
+.logout-icon {
+  width: 40%;
+}
+.logout-icon-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+@media screen and (min-width: 769px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+  .header-container-small {
+    display: none;
+  }
+}
+.header-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.website-logo-image {
+  width: 170px;
+}
+.header-description {
+  margin-right: 10px;
+}
+.logout-button {
+  background-color: blue;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+}
+.header-link-item {
+  text-decoration: none;
+  color: grey;
+}

@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.clothes-image {
+  width: 100%;
+}
+.shop-now-button {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
+.clothes-container {
+  margin: 20px;
+}
